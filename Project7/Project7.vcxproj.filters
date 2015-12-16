@@ -36,6 +36,9 @@
     <ClInclude Include="videoType.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="customerType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="custDat.txt">
@@ -56,6 +59,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="videoTypeImp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="customerType.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

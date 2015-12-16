@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClInclude Include="binarySearchTree.h" />
     <ClInclude Include="binaryTree.h" />
+    <ClInclude Include="customerType.h" />
     <ClInclude Include="linkedList.h" />
     <ClInclude Include="unorderedLinkedList.h" />
     <ClInclude Include="videoBinaryTree.h" />
@@ -32,6 +33,7 @@
     <Text Include="videoDat.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="customerType.cpp" />
     <ClCompile Include="testVideoStore.cpp" />
     <ClCompile Include="videoBinaryTreeImp.cpp" />
     <ClCompile Include="videoListTypeImp.cpp" />
