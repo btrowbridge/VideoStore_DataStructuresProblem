@@ -49,6 +49,7 @@ public:
 
     void videoPrintTitle();
       //Function to print the titles of all the videos in stock.
+	
 
 private:
     void searchVideoList(string title, bool& found,

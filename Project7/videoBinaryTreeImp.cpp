@@ -87,6 +87,7 @@ bool videoBinaryTree::videoSearch(string title)
 	return false;
 }
 
+
 void videoBinaryTree::searchVideoList(string title, bool& found,
                                    binaryTreeNode<videoType>* &current)
 {
@@ -128,4 +129,6 @@ void videoBinaryTree::inorderTitle(binaryTreeNode<videoType> *p)
         inorderTitle(p->rlink);
     }
 }
+
+
 

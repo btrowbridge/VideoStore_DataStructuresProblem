@@ -33,8 +33,28 @@ public:
       //    is deleted from the list. first points to the first 
       //    node, last points to the last node of the updated 
       //    list, and count is decremented by 1.
+	Type& get(Type);
 };
 
+template <class Type>
+Type& unorderedLinkedList<Type> ::get(Type item) {
+	nodeType<Type> *current; //pointer to traverse the list
+	bool found = false;
+
+	current = first; //set current to point to the first 
+					 //node in the list
+
+	while (current != NULL && !found)    //search the list
+		if (current->info == item) { //searchItem is found
+			found = true;
+			return current->info;
+		}
+		else
+			current = current->link; //make current point to
+									 //the next node
+	cout << "Not found" << endl;
+	
+}
 
 template <class Type>
 bool unorderedLinkedList<Type>::
